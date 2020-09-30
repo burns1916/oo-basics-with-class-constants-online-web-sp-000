@@ -6,9 +6,9 @@ BRANDS = []
 
   def initialize(brand)
     @brand = brand
+    if brand.size > 2 && brand.size < 4
     BRANDS << brand
-    if brand.length > 2 && brand.length < 4
-    BRANDS << brand
+
   end
   end
 
