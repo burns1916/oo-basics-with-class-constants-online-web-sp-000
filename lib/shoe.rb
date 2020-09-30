@@ -9,7 +9,6 @@ BRANDS = []
     BRANDS << brand.uniq{|i| [i.brand]}
 
   end
-  end
 
   def cobble
     self.condition = "new"
